@@ -441,6 +441,39 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_C7U4em": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_UaCQGA": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_EpRP3g": {
+          "type": "heading",
+          "settings": {
+            "text": "\"Avis de client ici\"",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UaCQGA",
+        "heading_EpRP3g"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -525,6 +558,7 @@
     "multi_column_FG7MTT",
     "featured_product_9LhHfm",
     "tabs_rAfxNX",
+    "rich_text_C7U4em",
     "faq",
     "contact_BFgi9M"
   ]
