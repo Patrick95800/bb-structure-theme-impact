@@ -318,7 +318,7 @@
         "image_wF9TtB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/badge_promo.jpg",
+            "image": "shopify://shop_images/badge_gift.png",
             "alignment": "center",
             "max_width": 210
           }
