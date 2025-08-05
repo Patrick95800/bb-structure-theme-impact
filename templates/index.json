@@ -307,6 +307,14 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "image_Pah4bD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/badge_promo.jpg",
+            "alignment": "center",
+            "max_width": 210
+          }
+        },
         "buy_buttons_MLPEmD": {
           "type": "buy_buttons",
           "settings": {
@@ -335,6 +343,7 @@
         "description_WfNeA6",
         "variant_picker_b7CJkp",
         "quantity_selector_6hM47b",
+        "image_Pah4bD",
         "buy_buttons_MLPEmD",
         "pickup_availability_4hjRrB"
       ],
