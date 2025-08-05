@@ -546,19 +546,6 @@
         "button_background": "",
         "button_text_color": ""
       }
-    },
-    "custom_html_V6QK97": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<!-- Rating Component - Optimized for Shopify -->\n<style>\n  .rating-premium {\n    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);\n    padding: 12px 24px;\n    display: inline-flex;\n    align-items: center;\n    gap: 12px;\n    border-radius: 50px;\n    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);\n    transition: all 0.3s ease;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n  }\n  \n  .rating-premium:hover {\n    transform: translateY(-2px);\n    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);\n  }\n  \n  .rating-premium .stars-container {\n    display: flex;\n    gap: 3px;\n  }\n  \n  .rating-premium .star {\n    color: #f59e0b;\n    font-size: 18px;\n    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));\n    line-height: 1;\n  }\n  \n  .rating-premium .star-half {\n    position: relative;\n    color: rgba(245, 158, 11, 0.3);\n  }\n  \n  .rating-premium .star-half::before {\n    content: '★';\n    position: absolute;\n    left: 0;\n    overflow: hidden;\n    width: 50%;\n    color: #f59e0b;\n  }\n  \n  .rating-premium .rating-text {\n    color: white;\n    font-size: 16px;\n    font-weight: 600;\n    letter-spacing: 0.3px;\n    line-height: 1;\n  }\n  \n  .rating-premium .divider {\n    width: 1px;\n    height: 20px;\n    background: rgba(255, 255, 255, 0.3);\n  }\n  \n  @media (max-width: 480px) {\n    .rating-premium {\n      padding: 10px 18px;\n      gap: 10px;\n    }\n    \n    .rating-premium .star {\n      font-size: 16px;\n    }\n    \n    .rating-premium .rating-text {\n      font-size: 14px;\n    }\n  }\n</style>\n\n<div class=\"rating-premium\">\n  <div class=\"stars-container\">\n    <span class=\"star\">★</span>\n    <span class=\"star\">★</span>\n    <span class=\"star\">★</span>\n    <span class=\"star\">★</span>\n    <span class=\"star star-half\">★</span>\n  </div>\n  <span class=\"divider\"></span>\n  <span class=\"rating-text\">4,4/5 • 389 clients satisfaits</span>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -573,7 +560,6 @@
     "tabs_rAfxNX",
     "rich_text_C7U4em",
     "faq",
-    "contact_BFgi9M",
-    "custom_html_V6QK97"
+    "contact_BFgi9M"
   ]
 }
