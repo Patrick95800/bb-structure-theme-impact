@@ -167,7 +167,7 @@
         "content": "",
         "expand_image": false,
         "text_position": "center",
-        "before_after_text_position": "bottom",
+        "before_after_text_position": "top",
         "before_text": "Before",
         "after_text": "After",
         "drag_initial_position": 50,
@@ -178,6 +178,65 @@
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
+      }
+    },
+    "multi_column_FG7MTT": {
+      "type": "multi-column",
+      "blocks": {
+        "item_GN9pm3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Client 1",
+            "heading_tag": "h4",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_XKpKBw": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Client 2",
+            "heading_tag": "h4",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_paPwT9": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Client 3",
+            "heading_tag": "h4",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_GN9pm3",
+        "item_XKpKBw",
+        "item_paPwT9"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Les clients en parlent le  mieux",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "faq": {
@@ -273,6 +332,80 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "image_link_blocks_xBJmbt": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_tcm7XY": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_7nAX3T": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_rLyh4k": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_LFpCVK": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_tcm7XY",
+        "item_7nAX3T",
+        "item_rLyh4k",
+        "item_LFpCVK"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
@@ -282,7 +415,9 @@
     "image_with_text_overlay_jq66BH",
     "rich_text_p6N98i",
     "before-after-image",
+    "multi_column_FG7MTT",
     "faq",
-    "multiple_images_with_text_ykkaNB"
+    "multiple_images_with_text_ykkaNB",
+    "image_link_blocks_xBJmbt"
   ]
 }
