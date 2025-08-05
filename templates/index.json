@@ -315,6 +315,14 @@
             "max_width": 210
           }
         },
+        "image_wF9TtB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/badge_promo.jpg",
+            "alignment": "center",
+            "max_width": 210
+          }
+        },
         "buy_buttons_MLPEmD": {
           "type": "buy_buttons",
           "settings": {
@@ -329,6 +337,14 @@
         "pickup_availability_4hjRrB": {
           "type": "pickup_availability",
           "settings": {}
+        },
+        "image_bFhent": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/badge_trust.jpg",
+            "alignment": "center",
+            "max_width": 210
+          }
         }
       },
       "block_order": [
@@ -344,8 +360,10 @@
         "variant_picker_b7CJkp",
         "quantity_selector_6hM47b",
         "image_Pah4bD",
+        "image_wF9TtB",
         "buy_buttons_MLPEmD",
-        "pickup_availability_4hjRrB"
+        "pickup_availability_4hjRrB",
+        "image_bFhent"
       ],
       "name": "Featured product",
       "settings": {
@@ -364,6 +382,63 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "tabs_rAfxNX": {
+      "type": "tabs",
+      "blocks": {
+        "tab_RFWmAC": {
+          "type": "tab",
+          "settings": {
+            "title": "Caractéristiques",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+            "page": ""
+          }
+        },
+        "tab_jtU6za": {
+          "type": "tab",
+          "settings": {
+            "title": "Essayez le 30 jours gratuitement",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+            "page": ""
+          }
+        },
+        "tab_cFCKEX": {
+          "type": "tab",
+          "settings": {
+            "title": "Livraison gratuite à domicile",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+            "page": ""
+          }
+        },
+        "tab_eGgkhj": {
+          "type": "tab",
+          "settings": {
+            "title": "Service client 7J/7",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_RFWmAC",
+        "tab_jtU6za",
+        "tab_cFCKEX",
+        "tab_eGgkhj"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "Subheading",
+        "title": "Heading",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "faq": {
@@ -418,44 +493,23 @@
         "accordion_text_color": ""
       }
     },
-    "multiple_images_with_text_ykkaNB": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_AeWRCx": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_UrzkEd": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_AeWRCx",
-        "item_UrzkEd"
-      ],
-      "name": "Multiple images with text",
+    "contact_BFgi9M": {
+      "type": "contact",
+      "name": "Contact form",
       "settings": {
         "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
+        "subheading": "Notre service client est disponible 7 jours sur 7. Temps de réponse moyen : 24h.",
+        "title": "Une question ?",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "large",
         "background": "",
         "background_gradient": "",
         "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
         "button_background": "",
         "button_text_color": ""
       }
@@ -470,7 +524,8 @@
     "before-after-image",
     "multi_column_FG7MTT",
     "featured_product_9LhHfm",
+    "tabs_rAfxNX",
     "faq",
-    "multiple_images_with_text_ykkaNB"
+    "contact_BFgi9M"
   ]
 }
