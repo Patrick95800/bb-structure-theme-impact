@@ -546,6 +546,19 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "custom_liquid_JbQw4G": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>EliteSmile - Évaluation Premium</title>\n  <style>\n    * {\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n    }\n    \n    body {\n      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n      background: #f8fafc;\n      padding: 40px;\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      min-height: 100vh;\n    }\n    \n    /* Version Premium Noire */\n    .rating-premium {\n      background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);\n      padding: 12px 24px;\n      display: inline-flex;\n      align-items: center;\n      gap: 12px;\n      border-radius: 50px;\n      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);\n      transition: all 0.3s ease;\n    }\n    \n    .rating-premium:hover {\n      transform: translateY(-2px);\n      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);\n    }\n    \n    .rating-premium .stars-container {\n      display: flex;\n      gap: 3px;\n    }\n    \n    .rating-premium .star {\n      color: #f59e0b;\n      font-size: 18px;\n      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));\n    }\n    \n    .rating-premium .star.half {\n      position: relative;\n    }\n    \n    .rating-premium .star.half::before {\n      content: '★';\n      position: absolute;\n      overflow: hidden;\n      width: 50%;\n      color: #f59e0b;\n    }\n    \n    .rating-premium .rating-text {\n      color: white;\n      font-size: 16px;\n      font-weight: 600;\n      letter-spacing: 0.3px;\n    }\n    \n    .rating-premium .divider {\n      width: 1px;\n      height: 20px;\n      background: rgba(255, 255, 255, 0.3);\n    }\n    \n    /* Responsive */\n    @media (max-width: 480px) {\n      .rating-premium {\n        padding: 10px 18px;\n        gap: 10px;\n      }\n      \n      .rating-premium .star {\n        font-size: 16px;\n      }\n      \n      .rating-premium .rating-text {\n        font-size: 14px;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"rating-premium\">\n    <div class=\"stars-container\">\n      <span class=\"star\">★</span>\n      <span class=\"star\">★</span>\n      <span class=\"star\">★</span>\n      <span class=\"star\">★</span>\n      <span class=\"star half\">☆</span>\n    </div>\n    <span class=\"divider\"></span>\n    <span class=\"rating-text\">4,4/5 • 389 clients satisfaits</span>\n  </div>\n</body>\n</html>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -560,6 +573,7 @@
     "tabs_rAfxNX",
     "rich_text_C7U4em",
     "faq",
-    "contact_BFgi9M"
+    "contact_BFgi9M",
+    "custom_liquid_JbQw4G"
   ]
 }
